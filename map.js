@@ -5,3 +5,11 @@ const doubles = numbers.map((num) => {
 });
 
 console.log(doubles);
+
+let words = ["Hello", "Hi", "Bye"];
+
+const newWords = words.map((word) => {
+  return word.toUpperCase();
+});
+
+console.log(newWords);
