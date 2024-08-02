@@ -4,7 +4,7 @@ const doubles = numbers.map((num) => {
   return num * 2;
 });
 
-console.log(doubles);
+//console.log(doubles);
 
 let words = ["Hello", "Hi", "Bye"];
 
@@ -12,4 +12,4 @@ const newWords = words.map((word) => {
   return word.toUpperCase();
 });
 
-console.log(newWords);
+//console.log(newWords);
