@@ -5,3 +5,14 @@ const even = numbers.filter((num) => {
 });
 
 //console.log(even);
+
+let people = [
+  { Name: "Savio", age: 22 },
+  { Name: "Gausu", age: 30 },
+];
+
+const oldies = people.filter((dude) => {
+  return dude.age > 25;
+});
+
+console.log(oldies);
