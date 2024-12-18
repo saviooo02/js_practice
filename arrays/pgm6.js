@@ -59,12 +59,12 @@ employee = [
 // }
 
 //arrange employee based on their experience in ascending order
-emp = employee.sort((a, b) => {
-  return a[5] - b[5];
-});
-for (let em of emp) {
-  console.log(em);
-}
+// emp = employee.sort((a, b) => {
+//   return a[5] - b[5];
+// });
+// for (let em of emp) {
+//   console.log(em);
+// }
 // print the employ name whose have the highest salary
 // maxSal = 0;
 // for (let emp of employee) {
